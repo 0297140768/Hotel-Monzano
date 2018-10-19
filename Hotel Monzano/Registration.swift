@@ -27,10 +27,22 @@ struct RoomType {
     var name: String
     var shortName: String
     var price: Int
+    
 }
 
 extension RoomType: Equatable {
     static func ==(lhs: RoomType, rhs: RoomType) -> Bool {
         return lhs.id == rhs.id
     }
+    
+    static func createRooms() -> [RoomType] {
+        let rooms = [
+            RoomType(id: 1, name: "Одноместный номер", shortName: "SGL", price: 50),
+            RoomType(id: 2, name: "Двухместный номер с одной большой кроватью", shortName: "Double room", price: 100),
+            RoomType(id: 3, name: "Двухместный номер с двумя кроватями", shortName: "Twin", price: 150),
+            RoomType(id: 4, name: "Люкс", shortName: "Suite", price: 200)]
+        
+        return rooms
+    }
+
 }

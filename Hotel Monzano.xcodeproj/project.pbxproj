@@ -13,6 +13,8 @@
 		956F47152178F7E1005DADC7 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956F47142178F7E1005DADC7 /* main.storyboard */; };
 		956F47172178F81F005DADC7 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F47162178F81F005DADC7 /* Registration.swift */; };
 		956F471921790004005DADC7 /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F471821790004005DADC7 /* AddRegistrationTableViewController.swift */; };
+		956F471B2179F98A005DADC7 /* RoomListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F471A2179F98A005DADC7 /* RoomListTableViewController.swift */; };
+		956F471D2179FA99005DADC7 /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F471C2179FA99005DADC7 /* RoomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		956F47142178F7E1005DADC7 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		956F47162178F81F005DADC7 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		956F471821790004005DADC7 /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		956F471A2179F98A005DADC7 /* RoomListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListTableViewController.swift; sourceTree = "<group>"; };
+		956F471C2179FA99005DADC7 /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				956F47162178F81F005DADC7 /* Registration.swift */,
 				956F471821790004005DADC7 /* AddRegistrationTableViewController.swift */,
 				956F47142178F7E1005DADC7 /* main.storyboard */,
+				956F471A2179F98A005DADC7 /* RoomListTableViewController.swift */,
+				956F471C2179FA99005DADC7 /* RoomTableViewCell.swift */,
 				956F47092178F788005DADC7 /* Assets.xcassets */,
 				956F470B2178F788005DADC7 /* LaunchScreen.storyboard */,
 				956F470E2178F788005DADC7 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956F471B2179F98A005DADC7 /* RoomListTableViewController.swift in Sources */,
 				956F471921790004005DADC7 /* AddRegistrationTableViewController.swift in Sources */,
 				956F47172178F81F005DADC7 /* Registration.swift in Sources */,
 				956F47032178F787005DADC7 /* AppDelegate.swift in Sources */,
+				956F471D2179FA99005DADC7 /* RoomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
